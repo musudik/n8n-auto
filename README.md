@@ -93,3 +93,19 @@ nca-toolkit:
       - S3_BUCKET_NAME=nca-toolkit
       - S3_REGION=None
     restart: unless-stopped
+	
+	
+## Your services should now be running on the following ports: Service URL's
+### n8n 
+http://<host-ip>/:5678
+### MiniIO 
+http://<host-ip>:9001
+### Kokoro TTS 
+http://<host-ip>:8880/web
+### Baserow 
+http://<host-ip>:85
+### NCA Toolkit 
+http://<host-ip>:8080
+
+	
+	
